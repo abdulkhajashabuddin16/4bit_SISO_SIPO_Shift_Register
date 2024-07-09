@@ -1,0 +1,6 @@
+; Assura generated file -- DO NOT EDIT --
+; Do NOT rely on the content of this file, it may change.
+;
+2 bind match unmatched shorts opens
+1 0 ((L "VDD")((3 "DFlipFlop" ( "VDD")))(S "VDD")((4 "DFlipFlop" ( "VDD"))))
+1 2 ((L "avC4_4"))
