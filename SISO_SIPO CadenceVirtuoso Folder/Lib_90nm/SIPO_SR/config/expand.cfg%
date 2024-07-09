@@ -1,0 +1,23 @@
+//Revision 1
+//NOTE
+// Default template for spectre
+// Note:
+//      Please remember to replace Top Cell Library, Cell, and View
+//      fields with the actual names used by your design.
+//END_NOTE
+
+config SIPO_SR;
+design \22SDEC10A .SIPO_SR:schematic;
+liblist myLib;
+
+viewlist spectre, cmos_sch, \cmos.sch , schematic, veriloga, ahdl, pspice, dspf;
+stoplist spectre;
+
+
+inst (\22SDEC10A .SIPO_SR:schematic).I5 binding :av_extracted;
+inst (\22SDEC10A .SIPO_SR:schematic).I6 binding :av_extracted;
+inst (\22SDEC10A .SIPO_SR:schematic).I7 binding :av_extracted;
+inst (\22SDEC10A .SIPO_SR:schematic).I8 binding :av_extracted;
+
+
+endconfig
